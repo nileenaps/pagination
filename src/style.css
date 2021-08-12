@@ -1,0 +1,78 @@
+body{
+  background-color:lightgrey
+}
+h1{
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  
+}
+.underline{
+  width:150px;
+  height:5px;
+  background-color: blue;
+  margin:0px auto;
+}
+.users{
+  
+  display:flex;
+  width:1200px;
+  flex-wrap: wrap;
+  
+  margin:50px 100px;
+  
+}
+.user-dtls{
+  background-color:snow;
+  width:270px;
+  height: 270px;
+  margin: 10px 25px 10px 0px;
+  border-radius: 10%;
+  text-align: center;
+  
+  
+}
+.img-section{
+  height: 150px;
+  width: 150px; 
+  border-radius: 50%;
+  margin: 20px 50px;
+}
+.login{
+  margin: 0 0 15px 0;
+}
+.profile{
+  padding: 4.5px 10px ;
+  background-color:rgb(123, 123, 190);
+  border-radius: 10px;
+  text-decoration:none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  font-size: 1rem;
+  
+}
+
+.btn-section{
+  margin-left:30%;
+}
+.btn{
+  background-color:lightseagreen;
+  cursor: pointer;
+  height: 35px;
+  width:35px;
+  margin:8px;
+  border-radius: 20%;
+}
+.active-btn{
+  background-color: rgb(14, 14, 245);
+  color: white;
+}
+.prev-next{
+  border: none;
+  background: none;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
